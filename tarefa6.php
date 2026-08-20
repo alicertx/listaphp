@@ -1,0 +1,15 @@
+<?php
+
+$a = 15;
+$b = 32;
+$c = 21;
+
+if ($a >= $b && $a >= $c) {
+    echo "O maior é: $a";
+} elseif ($b >= $a && $b >= $c) {
+    echo "O maior é: $b";
+} else {
+    echo "O maior é: $c";
+}
+
+?>
